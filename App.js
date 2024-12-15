@@ -16,7 +16,7 @@ export default function App() {
             {/* <StatusBar style="light" backgroundColor="#FF6347" />   */ /*La petite barre toute en haut, au dessus du header*/}
 
       <Tab.Navigator
-        initialRouteName="Home"
+        initialRouteName="Meteo"
         screenOptions={({ route }) => ({
           tabBarIcon: ({ color, size }) => {
             let iconName;
